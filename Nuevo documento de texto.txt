@@ -1,0 +1,29 @@
+Sobre este fichero: registrar_usuario.php 
+Yo tenia separado el formulario del codigo php y me funcionaba, pero quise unirlo para no tener tantas cosas sueltas (se que no se debe ser asi, pero como no es muy grande), ademas de que lo hice y no me salio, ahora quiero saber de que se trata para aprender a que se debe. 
+Gracias de antemano!!! 
+Saludos!
+
+
+<?php
+// $usuario=$_POST["user"];
+// $password=$_POST["pass"];
+
+// $cifrado = password_hash($password, PASSWORD_DEFAULT);  // , array("cost"=>12)
+
+// try {
+//     $base = new PDO("mysql:host=localhost; dbname=Arch_RRHH", "root", "");
+//     $base->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+//     $sql="INSERT INTO usuarios_pass (usuario, password) VALUES (:user, :pass)";
+
+//     $resultado = $base->prepare($sql);
+//     $resultado->execute(array(":user"=>$usuario, ":pass"=>$cifrado));
+    
+//     // echo $cifrado;
+//     echo "Registro de " . "<b>" . $usuario . "</b>" . " insetrado correctamente.";
+
+// } catch (\Throwable $th) {
+//     die("<p style = 'color: red'> Error: </p>" . $th->getMessage());
+// }
+
+?>
